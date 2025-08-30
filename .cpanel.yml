@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - rsync -a --delete --exclude=.git --exclude=.cpanel.yml . /home/silmipub/public_html/cuatricomia.es/
+    - rsync -a --delete --exclude=.git --exclude=.cpanel.yml --exclude=db_config.php . /home/silmipub/public_html/cuatricomia.es/
     - find /home/silmipub/public_html/cuatricomia.es/ -type d -exec chmod 755 {} \;
     - find /home/silmipub/public_html/cuatricomia.es/ -type f -exec chmod 644 {} \;
