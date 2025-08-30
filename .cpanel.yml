@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -a . /home/silmipub/public_html/
+    - /bin/cp -a . /home/silmipub/public_html/cuatricomia.es/
