@@ -2,7 +2,7 @@
 
 <section class="hero">
     <div class="container">
-        <h1>Tu Imagen Profesional, Simple y Ágil (Prueba de Despliegue)</h1>
+        <h1>Tu Imagen Profesional, Simple y Ágil</h1>
         <p class="subtitle">Soluciones integrales de diseño e imprenta para autónomos y pymes en Madrid.</p>
         <div class="counter-container">
             <p class="counter-text">¡Súmate a las <span id="click-counter" class="counter-number">0</span> personas que ya se han pre-inscrito!</p>

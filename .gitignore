@@ -12,3 +12,6 @@ vendor/
 
 # Archivos de log
 *.log
+
+# Archivos de configuración específicos del entorno
+db_config.php
