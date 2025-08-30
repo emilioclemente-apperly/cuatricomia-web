@@ -231,20 +231,43 @@ section:nth-of-type(even) {
 
 /* --- Responsividad --- */
 @media (max-width: 768px) {
+    .logo {
+        max-width: 180px; /* Logo más pequeño en móviles */
+    }
+
     h1 {
-        font-size: 2.2rem;
+        font-size: 1.9rem; /* Título principal más adaptado */
+        line-height: 1.3;
     }
 
     h2 {
         font-size: 1.8rem;
     }
 
+    .hero .subtitle {
+        font-size: 1rem; /* Subtítulo más legible */
+    }
+
     .hero, section {
-        padding: 40px 15px;
+        padding: 40px 20px; /* Ajuste de padding */
+    }
+
+    .counter-text {
+        font-size: 1.2rem; /* Ajustar tamaño del texto del contador */
+    }
+
+    .counter-number {
+        font-size: 1.8rem; /* Ajustar tamaño del número del contador */
     }
 
     .how-it-works-steps {
-        flex-direction: column;
+        flex-direction: column; /* Apilar los pasos en vertical */
+        gap: 40px;
+    }
+
+    .cta-button {
+        padding: 15px 30px; /* Botón ligeramente más pequeño */
+        font-size: 1rem;
     }
 }
 
