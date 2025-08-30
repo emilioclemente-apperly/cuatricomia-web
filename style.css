@@ -231,42 +231,56 @@ section:nth-of-type(even) {
 
 /* --- Responsividad --- */
 @media (max-width: 768px) {
+    /* --- Header y Logo --- */
+    :root {
+        --header-height: 70px; /* Reducir altura del header en móvil */
+    }
     .logo {
-        max-width: 180px; /* Logo más pequeño en móviles */
+        max-width: 150px; /* Logo más pequeño */
     }
 
+    /* --- Sección Hero Compacta --- */
+    .hero {
+        padding: 25px 20px; /* Menos padding vertical */
+    }
     h1 {
-        font-size: 1.9rem; /* Título principal más adaptado */
-        line-height: 1.3;
+        font-size: 1.8rem; /* Título más compacto */
+        line-height: 1.25;
+        margin-bottom: 0.5em;
     }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
     .hero .subtitle {
-        font-size: 1rem; /* Subtítulo más legible */
+        font-size: 0.95rem;
+        margin-bottom: 20px;
     }
-
-    .hero, section {
-        padding: 40px 20px; /* Ajuste de padding */
+    .counter-container {
+        margin-top: 20px;
+        padding: 8px 15px;
     }
-
     .counter-text {
-        font-size: 1.2rem; /* Ajustar tamaño del texto del contador */
+        font-size: 1rem;
     }
-
     .counter-number {
-        font-size: 1.8rem; /* Ajustar tamaño del número del contador */
+        font-size: 1.5rem;
     }
-
+    .whatsapp-clarification {
+        font-size: 0.8rem;
+        margin: 15px auto 20px auto;
+        max-width: 95%;
+    }
+    
+    /* --- Otros Ajustes Generales --- */
+    h2 {
+        font-size: 1.7rem;
+    }
+    section {
+        padding: 40px 20px;
+    }
     .how-it-works-steps {
-        flex-direction: column; /* Apilar los pasos en vertical */
+        flex-direction: column;
         gap: 40px;
     }
-
     .cta-button {
-        padding: 15px 30px; /* Botón ligeramente más pequeño */
+        padding: 14px 28px;
         font-size: 1rem;
     }
 }
