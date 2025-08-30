@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -a . /home/silmipub/public_html/cuatricomia.es/
+    - rsync -a --delete --exclude=.git --exclude=.cpanel.yml . /home/silmipub/public_html/cuatricomia.es/
