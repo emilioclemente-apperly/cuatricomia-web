@@ -1,0 +1,393 @@
+/* --- Variables y Estilos Globales --- */
+:root {
+    --header-height: 85px; /* Altura del header para el padding */
+    --color-bg-dark: #1a1a1a; /* Fondo principal oscuro */
+    --color-bg-light: #242424; /* Fondo para secciones alternas */
+    --color-text: #f0f0f0;      /* Texto principal claro */
+    --color-text-muted: #a0a0a0; /* Texto secundario más apagado */
+    --color-border: #333333;
+    --color-white: #ffffff;
+
+    --color-cyan: #00AEEF;
+    --color-magenta: #EC008C;
+    --color-yellow: #FFF200;
+
+    --font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    background-color: var(--color-bg-dark);
+    line-height: 1.7;
+    padding-top: var(--header-height); /* Espacio para el header fijo */
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1em;
+    color: var(--color-text-muted);
+}
+
+section {
+    padding: 60px 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+section:nth-of-type(even) {
+    background-color: var(--color-bg-light);
+}
+
+/* --- Clases de color CMYK --- */
+.cmyk-c { color: var(--color-cyan); }
+.cmyk-m { color: var(--color-magenta); }
+.cmyk-y { 
+    color: var(--color-yellow);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* --- Cabecera --- */
+.main-header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-bg-light);
+    position: fixed; /* Fija el header */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: flex-start; /* Logo a la izquierda */
+}
+
+.logo {
+    max-width: 220px;
+    height: auto;
+}
+
+/* --- Sección Hero --- */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero .subtitle {
+    font-size: 1.2rem;
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+    color: var(--color-text-muted);
+}
+
+.counter-container {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--color-border);
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-yellow);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-magenta);
+    color: var(--color-white);
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+.cta-button:hover {
+    background-color: #c80074; /* Magenta más oscuro */
+    transform: translateY(-3px);
+}
+
+/* --- Sección de Servicios --- */
+.service-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.service-card {
+    background-color: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%; /* Asegura que todas las tarjetas en una fila tengan la misma altura */
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: var(--color-magenta);
+}
+
+.service-card h3 {
+    font-size: 1.4rem;
+    color: var(--color-cyan);
+}
+
+/* --- Nuevas Secciones --- */
+.how-it-works-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+}
+
+.step {
+    flex: 1;
+}
+
+.step .step-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Asignar colores CMY a los números de los pasos */
+.how-it-works-steps .step:nth-child(1) .step-number { color: var(--color-cyan); }
+.how-it-works-steps .step:nth-child(2) .step-number { color: var(--color-magenta); }
+.how-it-works-steps .step:nth-child(3) .step-number { color: var(--color-yellow); }
+.how-it-works-steps .step:nth-child(4) .step-number { color: var(--color-white); }
+
+.step h3 {
+    color: var(--color-text);
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* --- Pie de Página --- */
+.main-footer {
+    background-color: #111;
+    color: var(--color-text-muted);
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid var(--color-border);
+}
+
+.main-footer p {
+    margin-bottom: 0.5em;
+}
+
+.main-footer a {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.main-footer a:hover {
+    color: var(--color-magenta);
+}
+
+/* --- Responsividad --- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero, section {
+        padding: 40px 15px;
+    }
+
+    .how-it-works-steps {
+        flex-direction: column;
+    }
+}
+
+/* --- Estilos mejorados para el contador (Opción 2) --- */
+.counter-container {
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    margin-top: 30px;
+    text-align: center; /* Centrar el contenido */
+}
+
+.counter-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-yellow); /* Todo el texto en amarillo */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Sombra suave para legibilidad */
+}
+
+.counter-number {
+    font-size: 2.2rem;
+    font-weight: 700;
+    /* El color se hereda de .counter-text */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin: 0 5px;
+}
+
+.whatsapp-clarification {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    max-width: 450px;
+    margin: 15px auto 30px auto;
+    line-height: 1.5;
+}
+
+.cta-button {
+    padding: 18px 40px;
+    font-size: 1.2rem;
+}
+
+/* --- Grid de Servicios --- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* --- Página de Detalle de Servicio --- */
+.service-detail {
+    padding: 40px 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-detail h1 {
+    text-align: center;
+}
+
+.service-detail .subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.service-features {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.service-features li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.service-features li::before {
+    content: '✔';
+    color: var(--color-cyan);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.service-content .cta-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--color-bg-light);
+    border-radius: 8px;
+}
+
+/* --- Estilos para Páginas Legales --- */
+.legal-page {
+    padding: 40px 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.legal-page h1,
+.legal-page h2 {
+    text-align: left;
+    margin-bottom: 1em;
+    color: var(--color-white);
+}
+
+.legal-page h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+}
+
+.legal-page h2 {
+    font-size: 1.8rem;
+    color: var(--color-cyan);
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 0.3em;
+}
+
+.legal-page p,
+.legal-page li {
+    color: var(--color-text-muted);
+    line-height: 1.8;
+    margin-bottom: 1.2em;
+}
+
+.legal-page strong {
+    color: var(--color-text);
+}
+
+.legal-page ul {
+    list-style-position: inside;
+}
+
+.footer-legal-links {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-legal-links a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+}
+
+.footer-legal-links a:hover {
+    color: var(--color-white);
+}

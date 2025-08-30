@@ -1,0 +1,14 @@
+# Archivos generados por el SO
+.DS_Store
+Thumbs.db
+
+# Carpetas de editores de código
+.vscode/
+.idea/
+
+# Carpetas de dependencias
+node_modules/
+vendor/
+
+# Archivos de log
+*.log

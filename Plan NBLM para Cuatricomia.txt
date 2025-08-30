@@ -1,0 +1,105 @@
+Prompt para Notebook LM: Plan de Negocio para Imprenta Digital "Cuatricomía.es"
+Aquí tienes un prompt detallado para que lo utilices en Notebook LM. Ha sido diseñado para recopilar y estructurar la información que necesitas, basándose en los puntos que has indicado.
+
+Copia y pega el siguiente texto en Notebook LM:
+
+Título del Proyecto: Plan de Negocio y Estrategia de Lanzamiento para "Cuatricomía.es": Imprenta Digital Online para Autónomos en España.
+
+Objetivo Principal: Crear un plan de negocio detallado y una estrategia de marketing para el lanzamiento de "cuatricomia.es", una imprenta digital online con sede en Madrid, enfocada en satisfacer las necesidades específicas de los autónomos en España, con especial atención al mercado madrileño.
+
+Perfil del Negocio:
+
+Nombre: Cuatricomía.es (dominio registrado y logotipo creado).
+
+Sede: Madrid, España.
+
+Público Objetivo Principal: Autónomos y freelancers en España, especialmente aquellos que inician su actividad y necesitan una solución integral para su presencia online y offline.
+
+Propuesta de Valor: Ofrecer un servicio cercano, ágil y de alta calidad que solucione las necesidades fundamentales de imagen corporativa y material de oficina de los autónomos, evitando las frustraciones habituales de las imprentas y copisterías tradicionales.
+
+Módulos de Información a Desarrollar:
+
+1. Análisis de Mercado y Demanda de Servicios:
+
+Investiga y analiza la demanda actual de los siguientes servicios por parte de autónomos en España y, más específicamente, en la Comunidad de Madrid:
+
+Creación de páginas web sencillas (webs presenciales, portfolios, etc.).
+
+Diseño de imagen corporativa (logotipos, paleta de colores, tipografías).
+
+Kits de papelería básica (tarjetas de visita, hojas membretadas, sobres).
+
+Identifica qué otros servicios o productos son altamente demandados por este nicho de mercado. ¿Podríamos añadir diseño de flyers, catálogos de servicios, vinilos para oficinas o rotulación de vehículos a pequeña escala?
+
+Analiza a la competencia principal en el sector de la imprenta online en España (menciona a jugadores como Vistaprint, Moo, Printful, y otros locales en Madrid). ¿Cuáles son sus puntos fuertes y débiles? ¿Cómo podemos diferenciarnos?
+
+2. Paquetes de Servicios para Autónomos:
+
+Diseña tres "Packs para Emprendedores" que agrupen los servicios principales. Por ejemplo:
+
+Pack Presencia Digital: Diseño de web sencilla + Asesoría en dominio y hosting.
+
+Pack Imagen Corporativa: Diseño de logotipo + Manual de marca básico + Diseño de papelería.
+
+Pack Emprendedor Total: Incluye los dos packs anteriores con un precio especial.
+
+Detalla qué incluiría exactamente cada pack y sugiere un rango de precios competitivo basado en el mercado español.
+
+3. Nicho de Mercado: Impresión de Carnets en PVC:
+
+Valida la viabilidad del nicho de impresión de carnets en tarjetas de PVC para pequeñas cantidades.
+
+¿Quiénes son los clientes potenciales para este servicio (pequeñas empresas, asociaciones, academias, organizadores de eventos)?
+
+Investiga proveedores en España para los accesorios (portacarnets y lanyards) y analiza los márgenes de beneficio potenciales.
+
+Sugiere una estrategia de precios para la impresión de carnets en PVC, considerando pedidos de pocas unidades.
+
+4. Servicio de Copistería Innovador:
+
+Identifica las frustraciones más comunes de los clientes con las copisterías tradicionales (colas, problemas con los archivos, falta de asesoramiento, precios poco claros para trabajos pequeños, horarios limitados).
+
+Propón un modelo de servicio de copistería online para "cuatricomia.es" que solucione estos problemas. Considera las siguientes ideas y amplíalas:
+
+Plataforma de Pedidos Online Sencilla: Un sistema donde el cliente pueda subir sus archivos (PDF, Word, etc.), elegir las opciones de impresión (color, b/n, tipo de papel, encuadernación) y obtener un presupuesto al instante.
+
+Precios con Descuento por Solicitud Online: Incentivar el uso de la plataforma digital.
+
+Servicio de Recogida en Local (Madrid) y Envío Nacional: Ofrecer flexibilidad al cliente.
+
+"Revisión Inteligente de Archivos": Un sistema (o un servicio manual al principio) que avise de posibles problemas en los documentos antes de imprimir para evitar errores.
+
+Comunicación Proactiva: Notificaciones por email o WhatsApp sobre el estado del pedido.
+
+5. Estrategia de Marketing y Ventas:
+
+Desarrolla una estrategia de marketing digital para llegar a los autónomos en Madrid y en toda España.
+
+SEO Local: ¿Cómo podemos posicionar "cuatricomia.es" para búsquedas como "imprenta para autónomos en Madrid" o "tarjetas de visita urgentes Madrid"?
+
+Marketing de Contenidos: Sugiere ideas para un blog o sección de recursos en la web. Por ejemplo: "Guía de imagen corporativa para nuevos autónomos", "Cómo preparar tus archivos para imprimir", "Ventajas de las tarjetas de visita en la era digital".
+
+Redes Sociales: ¿Qué plataformas serían las más adecuadas (LinkedIn, Instagram) y qué tipo de contenido deberíamos publicar?
+
+Publicidad Online: Analiza la viabilidad de campañas en Google Ads y redes sociales para los "Packs para Emprendedores".
+
+Colaboraciones: Propón alianzas con espacios de coworking en Madrid, asesorías para autónomos y gestorías.
+
+6. Estructura de la Web "cuatricomia.es":
+
+Basado en toda la información anterior, esboza la estructura del sitio web, incluyendo las secciones principales:
+
+Inicio (con una propuesta de valor clara y acceso a los servicios principales).
+
+Servicios (desglosados por categorías: Packs Emprendedor, Impresión Digital, Carnets PVC, Copistería Online).
+
+Cómo Funciona (un paso a paso sencillo para realizar un pedido).
+
+Blog/Recursos.
+
+Quiénes Somos (para generar confianza).
+
+Contacto (con un formulario claro y visible el teléfono y la dirección en Madrid).
+
+Entregable Final:
+Genera un documento estructurado que contenga toda esta información, de manera que sirva como una hoja de ruta clara y detallada para el lanzamiento y la gestión de "cuatricomia.es". El tono debe ser profesional, práctico y orientado a la acción.

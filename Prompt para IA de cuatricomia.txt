@@ -1,0 +1,60 @@
+Prompt para Generar la Página de Inicio de "Cuatricomía.es"
+Objetivo del Agente Gemini: Generar el código HTML, CSS y JavaScript (si es necesario para funcionalidades básicas) para la página de inicio de "Cuatricomía.es". La página debe ser profesional, intuitiva, minimalista y optimizada para la conversión, dirigida específicamente a autónomos y freelancers en España, con enfoque en el mercado de Madrid.
+Contexto y Perfil de Cuatricomía.es:
+• Nombre del Proyecto: Cuatricomía.es.
+• Naturaleza del Negocio: Imprenta digital online con sede en Madrid, España.
+• Público Objetivo Principal: Autónomos y freelancers en España, especialmente aquellos que inician su actividad y en el mercado madrileño.
+• Propuesta de Valor: Ofrecer una solución integral para la imagen corporativa y material de oficina, destacando un servicio cercano, ágil y de alta calidad, y evitando las frustraciones habituales de las imprentas y copisterías tradicionales.
+• Herramientas para la gestión (referencia interna): Considerar que la estructura debería ser amigable para su gestión con plataformas como WordPress, Hostinger y Divi.
+Filosofía de Diseño y Experiencia de Usuario:
+• Diseño Web Minimalista: Implementar un diseño minimalista para asegurar una mejor experiencia de usuario (UX), velocidad de carga rápida y un aumento de las conversiones.
+    ◦ Principios clave: Menos elementos innecesarios, estructura de contenido clara y jerarquizada, legibilidad, accesibilidad, usabilidad, uso intencional de espacio en blanco, paleta de colores limitada (2-3 tonos principales), tipografía limpia y jerarquizada y elementos visuales con función clara.
+• Adaptabilidad (Responsive Design): La página debe ser completamente responsive, funcionando perfectamente en dispositivos móviles, tablets y escritorios.
+• Objetivo de la página: Servir como escaparate digital, portafolio de servicios, punto de contacto y herramienta para generar leads, transmitiendo confianza y profesionalidad.
+Estructura y Contenido Requerido para la Página de Inicio:
+1. Header (Cabecera):
+    ◦ Logotipo de "Cuatricomía.es": Centrado o a la izquierda, limpio y visible.
+    ◦ Navegación Principal: Enlaces claros a las secciones clave:
+        ▪ "Servicios"
+        ▪ "Cómo Funciona"
+        ▪ "Blog/Recursos"
+        ▪ "Quiénes Somos"
+        ▪ "Contacto"
+    ◦ Botón de Acción Principal (CTA): Destacado, por ejemplo: "Pide tu Presupuesto Online" o "Ver Packs para Emprendedores".
+2. Hero Section (Sección Principal/Héroe):
+    ◦ Título Impactante: Por ejemplo: "Tu Imagen Profesional, Simple y Ágil. Soluciones Integrales para Autónomos."
+    ◦ Subtítulo Detallado: Ampliar la propuesta de valor: "Diseño web, imagen corporativa y material de oficina sin complicaciones ni esperas. Tu éxito empieza aquí.".
+    ◦ Llamada a la Acción Primaria: Un botón prominente que dirija a los "Packs para Emprendedores" o a la sección de "Presupuesto al Instante".
+    ◦ Elemento Visual: Una imagen o ilustración sutil y de alta calidad que represente la agilidad, la digitalización o la unión de diseño e impresión.
+3. Problem/Solution Section (Sección Problema-Solución):
+    ◦ Destacar brevemente las frustraciones comunes de los autónomos con las copisterías tradicionales (ej. "Problemas con archivos", "Precios poco claros", "Colas y horarios limitados").
+    ◦ Presentar a Cuatricomía.es como la solución, enfatizando el "servicio cercano, ágil y de alta calidad".
+4. Featured Services/Packs (Servicios Destacados / Packs para Emprendedores):
+    ◦ Presentar los tres "Packs para Emprendedores" con bloques visualmente atractivos:
+        ▪ Pack Presencia Digital: Diseño de web sencilla + Asesoría en dominio y hosting.
+        ▪ Pack Imagen Corporativa: Diseño de logotipo + Manual de marca básico + Diseño de papelería.
+        ▪ Pack Emprendedor Total: Incluye los dos packs anteriores con un precio especial.
+    ◦ Cada pack debe incluir una breve descripción de sus beneficios y un CTA como "Ver Detalles" o "Solicitar Pack".
+    ◦ Incluir los servicios adicionales propuestos: Diseño de Flyers, Catálogos de Servicios, Vinilos para Oficinas y Rotulación de Vehículos a pequeña escala.
+5. How It Works Section (Sección "Cómo Funciona"):
+    ◦ Un paso a paso sencillo y visual (3-4 pasos) sobre cómo realizar un pedido, reforzando la agilidad y transparencia:
+        1. Elige tu servicio y sube tus archivos: "Selecciona el servicio que necesitas o sube tus documentos (PDF, Word, etc.)".
+        2. Presupuesto al Instante y Descuento: "Obtén tu presupuesto claro al momento y aprovecha descuentos online.".
+        3. Revisión Inteligente y Confirmación: "Nuestro sistema (o equipo) revisa tu diseño/archivo, te avisamos de problemas y confirmas.".
+        4. Recibe tu Pedido: "Recógelo en nuestra sede en Madrid o te lo enviamos a toda España.".
+6. Trust/Credibility Section (Sección de Confianza/Credibilidad):
+    ◦ Testimonios: Espacio para mostrar testimonios ficticios (o placeholders) de autónomos satisfechos, destacando la agilidad y calidad del servicio.
+    ◦ Breve mención al compromiso de Cuatricomía.es con la calidad y los plazos de entrega.
+7. Secondary CTA (Llamada a la Acción Secundaria):
+    ◦ Fomentar la exploración de otros servicios (ej. "Carnets en PVC para pequeñas cantidades") o la visita al blog (ej. "Descubre más en nuestro blog: Guías para Autónomos").
+8. Footer (Pie de Página):
+    ◦ Nombre de la empresa, dirección en Madrid, información de contacto (teléfono, email).
+    ◦ Enlaces a páginas legales (Política de Privacidad, Aviso Legal, Términos y Condiciones).
+    ◦ Iconos de redes sociales (LinkedIn, Instagram).
+Consideraciones Técnicas para la Generación de Código:
+• Utilizar HTML5 semántico.
+• CSS debe ser minimalista, con variables para colores primarios/secundarios y fuentes, priorizando la legibilidad y la estética limpia.
+• Si se requiere JavaScript, que sea mínimo y para mejoras de UX (ej. navegación móvil).
+• Incluir comentarios claros en el código para facilitar la comprensión y futura edición.
+• Asegurar la accesibilidad básica.
+• Meta tags: Generar placeholders para title y meta description optimizados para SEO local (ej. "Imprenta Digital para Autónomos en Madrid | Cuatricomía.es", "Soluciones de Diseño Web, Imagen Corporativa y Copistería Online para Autónomos en Madrid y España. Servicios Ágiles y de Calidad.").
