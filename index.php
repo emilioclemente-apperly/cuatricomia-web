@@ -2,7 +2,8 @@
 
 <section class="hero">
     <div class="container">
-        <h1>Próxima Apertura: Conviértete en Fundador</h1>
+        <h1>Servicios de Carnetización</h1>
+        <h2 class="cmyk-c">Próxima Apertura: Conviértete en Fundador</h2>
         <p class="subtitle">Estamos buscando a nuestros primeros clientes. Anótate en la lista de fundadores y obtén <br><strong>precios y descuentos preferenciales de por vida</strong> en todos nuestros servicios de carnetización.</p>
         <div class="counter-container">
             <p class="counter-text">¡Súmate a las <span id="click-counter" class="counter-number">0</span> personas que ya se han unido al club de fundadores!</p>
@@ -41,8 +42,10 @@
 <section class="how-it-works">
     <div class="container text-center">
         <h2 class="cmyk-y">¿Listo para empezar?</h2>
-        <p class="lead">Cuéntanos qué necesitas y te daremos un presupuesto ajustado sin compromiso.</p>
-        <a href="carnetizacion.php" class="cta-button">Ver Detalles del Servicio</a>
+        <p class="lead" style="text-align: center;">Cuéntanos qué necesitas y te daremos un presupuesto ajustado sin compromiso.</p>
+        <div style="text-align: center;">
+            <a href="carnetizacion.php" class="cta-button">Ver Detalles del Servicio</a>
+        </div>
     </div>
 </section>
 
