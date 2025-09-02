@@ -2,80 +2,47 @@
 
 <section class="hero">
     <div class="container">
-        <h1>Tu Imagen Profesional, Simple y Ágil</h1>
-        <p class="subtitle">Soluciones integrales de diseño e imprenta para autónomos y pymes en Madrid.</p>
+        <h1>Carnets de PVC a tu Medida</h1>
+        <p class="subtitle">Soluciones de carnetización para empresas, eventos y asociaciones. <br><strong>Especialistas en pequeñas tiradas, sin pedido mínimo.</strong></p>
         <div class="counter-container">
-            <p class="counter-text">¡Súmate a las <span id="click-counter" class="counter-number">0</span> personas que ya se han pre-inscrito!</p>
+            <p class="counter-text">Únete a las <span id="click-counter" class="counter-number">0</span> personas que ya han confiado en nosotros.</p>
         </div>
-        <p class="whatsapp-clarification">Haz clic en el botón para enviarnos un WhatsApp y registrar tu interés. ¡Te avisaremos antes que a nadie!</p>
-        <a href="https://wa.me/34611564303?text=Hola%2C%20quiero%20anotarme%20a%20la%20oferta%20de%20pre-apertura" class="cta-button" id="whatsapp-cta" target="_blank">¡Quiero mi oferta de pre-apertura!</a>
+        <a href="carnetizacion.php" class="cta-button">Solicita Presupuesto</a>
     </div>
 </section>
 
 <section class="problem-solution">
     <div class="container about-us">
-        <h2 class="cmyk-m">¿Cansado de imprentas que no te entienden?</h2>
-        <p>Sabemos que tu tiempo es oro. Por eso, hemos eliminado las colas, los problemas con archivos y la falta de asesoramiento. En Cuatricomía.es te ofrecemos un servicio cercano y transparente, pensado por y para autónomos.</p>
+        <h2 class="cmyk-m">La Solución Fiable para Pequeñas Cantidades</h2>
+        <p>En España, las grandes imprentas suelen exigir pedidos mínimos que dejan fuera a pequeñas empresas, clubes o eventos. En Cuatricomía atendemos ese nicho: te ofrecemos un servicio de carnetización profesional, rápido y fiable <strong>desde una sola unidad</strong>. Calidad y atención personalizada, sin importar el tamaño de tu pedido.</p>
     </div>
 </section>
 
 <section class="services">
     <div class="container">
-        <h2 class="cmyk-c">Nuestros Servicios Destacados</h2>
+        <h2 class="cmyk-c">Nuestro Proceso Simplificado</h2>
         <div class="services-grid">
-            <a href="presencia-digital.php" class="service-card-link">
-                <div class="service-card">
-                    <h3>Pack Presencia Digital</h3>
-                    <p>Diseño de web sencilla y funcional, y asesoramiento en dominio y hosting para que empieces con buen pie en internet.</p>
-                </div>
-            </a>
-            <a href="imagen-corporativa.php" class="service-card-link">
-                <div class="service-card">
-                    <h3>Pack Imagen Corporativa</h3>
-                    <p>Creación de logotipo, manual de marca básico y diseño de papelería para una imagen coherente y profesional.</p>
-                </div>
-            </a>
-            <a href="impresion.php" class="service-card-link">
-                <div class="service-card">
-                    <h3>Impresión Digital y Copistería</h3>
-                    <p>Tarjetas, flyers, catálogos y más. Impresión de alta calidad con la última tecnología y sin complicaciones.</p>
-                </div>
-            </a>
-            <a href="carnetizacion.php" class="service-card-link">
-                <div class="service-card">
-                    <h3>Carnetización Profesional</h3>
-                    <p>Diseño e impresión de carnets en PVC, con sus porta-carnets y lanyards personalizados para tu equipo o evento.</p>
-                </div>
-            </a>
+            <div class="service-card">
+                <h3>1. Diseño y Personalización</h3>
+                <p>¿Tienes un diseño? Perfecto. ¿No lo tienes? Lo creamos por ti. Adaptamos cada carnet con logos, fotos, nombres y cualquier dato variable que necesites.</p>
+            </div>
+            <div class="service-card">
+                <h3>2. Impresión de Alta Calidad</h3>
+                <p>Imprimimos sobre tarjetas de PVC resistentes con una calidad de imagen excepcional. Ofrecemos opciones como códigos QR, códigos de barras o bandas magnéticas.</p>
+            </div>
+            <div class="service-card">
+                <h3>3. Accesorios y Envío</h3>
+                <p>Completa tu pedido con lanyards personalizados, portacarnets y más. Preparamos todo y te lo enviamos rápidamente a cualquier punto de España.</p>
+            </div>
         </div>
     </div>
 </section>
 
 <section class="how-it-works">
-    <div class="container">
-        <h2 class="cmyk-y">¿Cómo Funciona?</h2>
-        <div class="how-it-works-steps">
-            <div class="step">
-                <div class="step-number">1</div>
-                <h3>Elige tu servicio</h3>
-                <p>Selecciona lo que necesitas y, si es necesario, sube tus archivos directamente.</p>
-            </div>
-            <div class="step">
-                <div class="step-number">2</div>
-                <h3>Presupuesto al instante</h3>
-                <p>Obtén un precio claro y sin sorpresas. Lo que ves es lo que pagas.</p>
-            </div>
-            <div class="step">
-                <div class="step-number">3</div>
-                <h3>Revisión y Confirmación</h3>
-                <p>Revisamos que todo esté perfecto para la producción y te mantenemos informado.</p>
-            </div>
-            <div class="step">
-                <div class="step-number">4</div>
-                <h3>Recibe tu Pedido</h3>
-                <p>Te lo enviamos a cualquier punto de España o puedes recogerlo en nuestra sede de Madrid.</p>
-            </div>
-        </div>
+    <div class="container text-center">
+        <h2 class="cmyk-y">¿Listo para empezar?</h2>
+        <p class="lead">Cuéntanos qué necesitas y te daremos un presupuesto ajustado sin compromiso.</p>
+        <a href="carnetizacion.php" class="cta-button">Contactar para un Presupuesto</a>
     </div>
 </section>
 

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuatricomía.es | Soluciones Integrales para Autónomos en Madrid</title>
-    <meta name="description" content="Soluciones de Diseño Web, Imagen Corporativa y Copistería Online para Autónomos en Madrid y España. Servicios Ágiles y de Calidad.">
+    <title>Cuatricomía.es | Carnets de PVC para Empresas y Eventos</title>
+    <meta name="description" content="Servicio de diseño e impresión de carnets de PVC personalizados. Especialistas en pequeñas tiradas sin pedido mínimo. Envíos a toda España.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
