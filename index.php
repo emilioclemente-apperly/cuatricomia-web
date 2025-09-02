@@ -2,12 +2,12 @@
 
 <section class="hero">
     <div class="container">
-        <h1>Carnets de PVC a tu Medida</h1>
-        <p class="subtitle">Soluciones de carnetización para empresas, eventos y asociaciones. <br><strong>Especialistas en pequeñas tiradas, sin pedido mínimo.</strong></p>
+        <h1>Próxima Apertura: Conviértete en Fundador</h1>
+        <p class="subtitle">Estamos buscando a nuestros primeros clientes. Anótate en la lista de fundadores y obtén <br><strong>precios y descuentos preferenciales de por vida</strong> en todos nuestros servicios de carnetización.</p>
         <div class="counter-container">
-            <p class="counter-text">Únete a las <span id="click-counter" class="counter-number">0</span> personas que ya han confiado en nosotros.</p>
+            <p class="counter-text">¡Súmate a las <span id="click-counter" class="counter-number">0</span> personas que ya se han unido al club de fundadores!</p>
         </div>
-        <a href="carnetizacion.php" class="cta-button">Solicita Presupuesto</a>
+        <a href="https://wa.me/34611564303?text=Hola%2C%20quiero%20registrarme%20como%20fundador%20para%20obtener%20precios%20preferenciales%20de%20por%20vida" class="cta-button" id="whatsapp-cta" target="_blank">¡Quiero ser Fundador!</a>
     </div>
 </section>
 
@@ -42,7 +42,7 @@
     <div class="container text-center">
         <h2 class="cmyk-y">¿Listo para empezar?</h2>
         <p class="lead">Cuéntanos qué necesitas y te daremos un presupuesto ajustado sin compromiso.</p>
-        <a href="carnetizacion.php" class="cta-button">Contactar para un Presupuesto</a>
+        <a href="carnetizacion.php" class="cta-button">Ver Detalles del Servicio</a>
     </div>
 </section>
 

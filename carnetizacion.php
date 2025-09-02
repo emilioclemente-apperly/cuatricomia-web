@@ -17,7 +17,7 @@
                     <li><strong>Diseño Personalizado:</strong> Creamos un diseño para tus carnets que se alinea con tu imagen de marca, incluyendo logos, fotos, nombres y códigos QR o de barras.</li>
                     <li><strong>Impresión en PVC:</strong> Calidad de impresión fotográfica sobre tarjetas de PVC resistentes y de larga duración, con un acabado profesional.</li>
                     <li><strong>Porta-Carnets y Accesorios:</strong> Disponemos de una variedad de porta-carnets (rígidos o flexibles) para proteger el carnet y facilitar su uso.</li>
-                    <li><strong>Lanyards Personalizados:</strong> Completa la solución con lanyards (cintas para el cuello) serigrafiados con el logo y los colores de tu empresa.</li>
+                    <li><strong>Lanyards por Sublimación:</strong> Completa la solución con lanyards (cintas para el cuello) personalizados a todo color mediante sublimación, permitiendo diseños complejos y duraderos.</li>
                 </ul>
                 
                 <div class="cta-section text-center mt-4">
