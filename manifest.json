@@ -1,0 +1,21 @@
+{
+  "name": "Federación de Entidades Canarias en Venezuela",
+  "short_name": "FEDECANARIAS",
+  "description": "App para acceso, clubes afiliados y aliados comerciales.",
+  "start_url": "./index.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1D4ED8",
+  "icons": [
+    {
+      "src": "Imagenes/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Imagenes/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<<<<
+        <!-- Contenedor general para Resultados -->
+        <div id="loader" class="hidden text-center my-8">
+            <i data-lucide="loader-2" class="w-10 h-10 animate-spin text-blue-500 mx-auto"></i>
+            <p class="mt-2 text-gray-500">Cargando datos...</p>
+        </div>
+
+        <div id="resultados-container" class="hidden space-y-8">
+            
+            <!-- Clubes -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-800 border-b-2 border-blue-500 pb-2 mb-4 flex items-center">
+                    <i data-lucide="building" class="mr-2 text-blue-600"></i> Clubes
+                </h2>
+                <div id="clubes-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Los clubes se renderizan aquí dinámicamente -->
+                </div>
+            </section>
+
+            <!-- Aliados -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-800 border-b-2 border-green-500 pb-2 mb-4 flex items-center">
+                    <i data-lucide="shopping-bag" class="mr-2 text-green-600"></i> Aliados Comerciales
+                </h2>
+                <div id="aliados-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Los aliados se renderizan aquí dinámicamente -->
+                </div>
+            </section>
+        </div>
+====
+>>>>
