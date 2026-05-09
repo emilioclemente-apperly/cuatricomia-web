@@ -197,6 +197,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.openMap = function(url) {
         modalMap.classList.remove('hidden');
         mapLoader.classList.remove('hidden');
+        
+        // Fix for Google Maps to allow iframe embedding
+        if (url.includes('google') && !url.includes('output=embed')) {
+            url += (url.includes('?') ? '&' : '?') + 'output=embed';
+        }
+        
         iframeMap.src = url;
     };
 
@@ -305,15 +311,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // QR Code Scanner Logic
-    let html5QrcodeScanner = null;
+    let html5QrCode = null;
     const btnScan = document.getElementById('btn-scan');
     const modalQR = document.getElementById('qr-modal');
     const btnCloseScan = document.getElementById('btn-close-scan');
 
     function onScanSuccess(decodedText, decodedResult) {
         // Detener scanner
-        if (html5QrcodeScanner) {
-            html5QrcodeScanner.clear();
+        if (html5QrCode) {
+            html5QrCode.stop().then(() => html5QrCode.clear()).catch(e => console.error(e));
         }
         modalQR.classList.add('hidden');
         
@@ -327,19 +333,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnScan.addEventListener('click', () => {
         modalQR.classList.remove('hidden');
-        html5QrcodeScanner = new Html5QrcodeScanner(
-            "qr-reader", 
-            { fps: 10, qrbox: {width: 250, height: 250}, aspectRatio: 1.0 }, 
-            false
-        );
-        html5QrcodeScanner.render(onScanSuccess, (error) => {
-            // Ignorar errores de escaneo rutinario (ej. cuando la cámara busca el código)
+        html5QrCode = new Html5Qrcode("qr-reader");
+        
+        Html5Qrcode.getCameras().then(devices => {
+            if (devices && devices.length) {
+                html5QrCode.start(
+                    { facingMode: "environment" }, 
+                    { fps: 10, qrbox: {width: 250, height: 250}, aspectRatio: 1.0 },
+                    onScanSuccess,
+                    (error) => {
+                        // Ignorar errores rutinarios
+                    }
+                ).catch((err) => {
+                    alert("No se pudo iniciar la cámara: " + err);
+                });
+            } else {
+                alert("No se encontraron cámaras en este dispositivo.");
+            }
+        }).catch(err => {
+            alert("Para escanear el QR, necesitas otorgar permisos de cámara en tu navegador.");
+            modalQR.classList.add('hidden');
         });
     });
 
     btnCloseScan.addEventListener('click', () => {
-        if (html5QrcodeScanner) {
-            html5QrcodeScanner.clear();
+        if (html5QrCode) {
+            html5QrCode.stop().then(() => html5QrCode.clear()).catch(e => console.error(e));
         }
         modalQR.classList.add('hidden');
     });
